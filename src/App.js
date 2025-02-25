@@ -3,6 +3,8 @@ import './index.css'
 import './App.css'
 import { FaArrowRight } from "react-icons/fa";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+import { Link } from 'react-router-dom';
+
 
 
 const App = () => {
@@ -10,7 +12,7 @@ const App = () => {
     <div>
       <section className='home' id='home'>
         <h1 className='home-main-header'>Time Academy: Kelajagingizni bugundan yarating!</h1>
-        <a href='#fanlar' className='home-main-btn'>BATAFSIL  <FaArrowRight className='home-main-btn-icon' /></a>
+        <Link to="/contact" className='home-main-btn'>BIZ BILAN BOG'LANING <FaArrowRight className='home-main-btn-icon' /></Link>
       </section>
       <section className='fanlar' id='fanlar'>
         <div className='fanlar-header'>
@@ -19,7 +21,7 @@ const App = () => {
         <div className='all-fanlar'>
           <div className="fanlar-fan ingliz">
             <h1>INGLIZ TILI</h1>
-            <button className='fanlar-fan-btn'>BATAFSIL <MdKeyboardDoubleArrowRight className='batafsil-btn' /></button>
+            <Link to='/english' className='fanlar-fan-btn'>BATAFSIL <MdKeyboardDoubleArrowRight className='batafsil-btn' /></Link>
           </div>
           <div className="fanlar-fan onatili">
             <h1>ONA TILI VA ADABIYOT</h1>

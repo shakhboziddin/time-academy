@@ -1,10 +1,16 @@
 .home{
-    background-color: red;
+    background: 
+    linear-gradient(90deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4 ) 100%), 
+    url(./images/home.png);
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: top;
     flex-direction: column; 
+    background-position: center;
+    background-size: cover;
+    border-bottom: 7px black;
+    background-repeat: no-repeat;
 }
 .home-main-header{
     margin-top: 200px;
@@ -19,7 +25,7 @@
 .home-main-btn{
     display: flex;
     align-items: center;
-    border: 1px solid grey;
+    border: 1px solid rgb(255, 255, 255);
     color: white;
     font-size: large;
     font-weight: 700;
@@ -85,7 +91,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 30vh;
+    height: 34vh;
     display: flex;
     align-items: center;
     justify-content: center;
