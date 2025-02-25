@@ -3,44 +3,44 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.footer {
+.footer1 {
     background: #222;
     color: white;
     text-align: center;
     padding: 90px 0;
-    margin-top: 00px;
+    margin-top:   0px;
 }
 
-.container {
+.container1 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.logo {
+.logo1 {
     width: 100px;
     margin-bottom: 60px;
 }
-.phone {
+.phone1 {
     font-size: 16px;
     margin-bottom: 10px;
 }
 
-.socials {
+.socials1 {
     display: flex;
     gap: 15px;
 }
 
-.social-icon {
+.social-icon1 {
     color: white;
     font-size: 24px;
     text-decoration: none;
 }
 
-.social-icon:hover {
+.social-icon1:hover {
     color: #00aced; /* Change color on hover */
 }
-.phone{
+.phone1{
     display: flex;
     align-items: center;
     gap: 6px;

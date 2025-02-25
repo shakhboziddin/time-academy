@@ -2,11 +2,11 @@
     padding-top: 170px;
     background-color: #74EBD5;
 background-image: linear-gradient(90deg, #556361 0%, #8490c7 100%);
-height: 100vh;
+height: 100%;
 color: rgb(255, 255, 255);
+margin-bottom: auto ;
 }
 .english-header-paragraph{
-    margin-bottom: 30px;
     text-align: center;
     padding: 30px;
 }
@@ -20,4 +20,24 @@ color: rgb(255, 255, 255);
     font-weight: 400;
     letter-spacing: 2px;
     line-height: 22px;
+}
+.english-header-paragraph img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}   
+.img-div{
+    width: 90%;
+    align-items: center;
+    margin-left:  auto;
+    margin-right: auto;
+    height: 100%;
+    padding-top: 50px;
+    /* padding-bottom: 40px; */
+}
+
+@media(max-width:500px){
+    .english-header-paragraph p{
+        font-size: 15px;
+    }
 }

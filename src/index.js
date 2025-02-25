@@ -9,6 +9,13 @@ import Navbar from './components/navbar';
 import Footer from './components/footer';
 import Contact from './components/contact'
 import english from './components/subjects/english';
+import onatili from './components/subjects/onatili'
+import koreystili from './components/subjects/koreystili';
+import matem from './components/subjects/matem';
+import tarix from './components/subjects/tarix';
+import biology from './components/subjects/biology';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +26,11 @@ root.render(
         <Route path='/' Component={App} />
         <Route path='/contact' Component={Contact} />
         <Route path='/english' Component={english} />
+        <Route path='/onatili' Component={onatili} />
+        <Route path='/koreystili' Component={koreystili} />
+        <Route path='/matematika' Component={matem} />
+        <Route path='/tarix' Component={tarix} />
+        <Route path='/biology' Component={biology} />
       </Routes>
     <Footer/>
     </BrowserRouter>

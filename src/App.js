@@ -25,23 +25,23 @@ const App = () => {
           </div>
           <div className="fanlar-fan onatili">
             <h1>ONA TILI VA ADABIYOT</h1>
-            <button className='fanlar-fan-btn'>BATAFSIL <MdKeyboardDoubleArrowRight className='batafsil-btn' /></button>
+            <Link to='/onatili' className='fanlar-fan-btn'>BATAFSIL <MdKeyboardDoubleArrowRight className='batafsil-btn' /></Link>
           </div>
           <div className="fanlar-fan koreys">
             <h1>KOREYS TILI</h1>
-            <button className='fanlar-fan-btn'>BATAFSIL <MdKeyboardDoubleArrowRight className='batafsil-btn' /></button>
+            <Link to='/koreystili'className='fanlar-fan-btn'>BATAFSIL <MdKeyboardDoubleArrowRight className='batafsil-btn' /></Link>
           </div>
           <div className="fanlar-fan math">
             <h1>ALGEBRA - GEOMETRIYA</h1>
-            <button className='fanlar-fan-btn'>BATAFSIL <MdKeyboardDoubleArrowRight className='batafsil-btn' /></button>
+            <Link to='/matematika' className='fanlar-fan-btn'>BATAFSIL <MdKeyboardDoubleArrowRight className='batafsil-btn' /></Link>
           </div>
           <div className="fanlar-fan tarix">
             <h1>TARIX</h1>
-            <button className='fanlar-fan-btn'>BATAFSIL <MdKeyboardDoubleArrowRight className='batafsil-btn' /></button>
+            <Link to='/tarix' className='fanlar-fan-btn'>BATAFSIL <MdKeyboardDoubleArrowRight className='batafsil-btn' /></Link>
           </div>
           <div className="fanlar-fan bio">
             <h1>BIOLOGIYA - KIMYO</h1>
-            <button className='fanlar-fan-btn'>BATAFSIL <MdKeyboardDoubleArrowRight className='batafsil-btn' /></button>
+            <Link to='/biology' className='fanlar-fan-btn'>BATAFSIL <MdKeyboardDoubleArrowRight className='batafsil-btn' /></Link>
           </div>
         </div>
       </section>
