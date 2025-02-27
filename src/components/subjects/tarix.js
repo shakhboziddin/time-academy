@@ -17,7 +17,7 @@ const tarix = () => {
                 </div>
             </div>
         </div>
-    )
+    )   
 }
 
 export default tarix
